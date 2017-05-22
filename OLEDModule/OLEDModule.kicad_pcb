@@ -3,9 +3,9 @@
   (general
     (links 64)
     (no_connects 2)
-    (area 147.241659 105.334999 175.716001 135.838001)
+    (area 132.739001 95.725216 186.840715 145.283)
     (thickness 1.6)
-    (drawings 19)
+    (drawings 18)
     (tracks 195)
     (zones 0)
     (modules 24)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.254)
     (user_trace_width 0.1524)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
@@ -1022,6 +1022,8 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start 147.32 133.223) (end 147.32 108.077) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 175.641 107.95) (end 175.641 126.873) (angle 90) (layer Edge.Cuts) (width 0.15))
   (dimension 26.289 (width 0.3) (layer Dwgs.User)
     (gr_text "26,289 mm" (at 139.239 118.5545 270) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -1061,8 +1063,6 @@
   (gr_arc (start 149.733 133.35) (end 149.606 135.763) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5922DAD6))
   (gr_arc (start 149.606 133.477) (end 151.892 133.477) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5922DAD5))
   (gr_line (start 151.892 133.477) (end 151.892 131.699) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5922DAD4))
-  (gr_line (start 147.32 133.223) (end 147.32 108.077) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5922DAD3))
-  (gr_line (start 147.32 133.223) (end 147.32 108.077) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 175.641 131.699) (end 175.641 126.873) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 151.892 131.699) (end 175.641 131.699) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 151.892 133.477) (end 151.892 131.699) (angle 90) (layer Edge.Cuts) (width 0.15))
@@ -1070,7 +1070,6 @@
   (gr_arc (start 149.733 133.35) (end 149.606 135.763) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 149.733 105.41) (end 173.101 105.41) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 149.86 107.95) (end 147.32 108.077) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 175.641 107.95) (end 175.641 126.873) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 173.101 107.95) (end 173.101 105.41) (angle 90) (layer Edge.Cuts) (width 0.15))
   (dimension 2.54 (width 0.3) (layer Dwgs.User)
     (gr_text "2,540 mm" (at 181.055 106.68 270) (layer Dwgs.User)
