@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 147.265766 104.403266 175.686778 135.90049)
     (thickness 1.6)
-    (drawings 518)
+    (drawings 519)
     (tracks 228)
     (zones 0)
     (modules 25)
@@ -1384,6 +1384,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start 157.48 116.332) (end 157.607 116.332) (angle 90) (layer B.SilkS) (width 0.2))
   (gr_text "SDA\n" (at 157.988 119.888 270) (layer B.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.175)) (justify mirror))
   )
