@@ -1,0 +1,16 @@
+Id;Identificador;Empaquetado;Cantidad;Identificación;Suministrador y ref
+1;G***;web;1;LOGO;
+2;DS1;er-oled-ssd1306;1;ER-OLED-SSD1306;
+3;P1;JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled;1;CONN_01X04;
+4;REF**,REF**;MountingHole_3.2mm_M3;2;MountingHole_3.2mm_M3;
+5;U1;SOT-23-5;1;MIC5219-3.3BM5;
+6;U2;TSSOP-8_3x3mm_Pitch0.65mm;1;PCA9517A;
+7;C1,C5,C6,C8,C9;C_0603;5;1u;
+8;C2;C_0603;1;470p;
+9;C3,C10;C_0603;2;2.2u;
+10;C4;C_0603;1;100n;
+11;C7;C_0603;1;4.7u;
+12;R1,R2,R4,R5,R6,R7;R_0603;6;10k;
+13;R3;R_0603;1;0;
+14;R8;R_0603;1;390k;
+15;G***;atom_small;1;LOGO;
